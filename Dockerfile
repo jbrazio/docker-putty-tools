@@ -3,7 +3,7 @@ FROM alpine:3.21
 LABEL org.opencontainers.image.authors="jbrazio"
 LABEL org.opencontainers.image.description="PuTTY tools on a container"
 LABEL org.opencontainers.image.licenses=GPL-3.0-or-later
-LABEL org.opencontainers.image.source=https://github.com/jbrazio/github-runner-debian.git
+LABEL org.opencontainers.image.source=https://github.com/jbrazio/docker-putty-tools.git
 
 # add a standard account
 RUN apk add --no-cache bash putty \
